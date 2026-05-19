@@ -75,6 +75,15 @@ python attendance.py
 1. 运行 `collect_faces.py`，对着摄像头采集人脸，系统会保存多张图像到 `datasets/`
 2. 运行 `train_model.py`，对数据集中的人脸进行编码并生成模型
 3. 运行 `attendance.py`，摄像头识别到已录入的人脸后自动签到，记录写入 `attendance_logs/`
+4. ## 运行效果
+
+人脸采集界面：
+
+![人脸采集](Demo1.png)
+
+实时考勤识别：
+
+![考勤识别](Demo2.png)
 
 ## ⚠️ 注意事项
 
