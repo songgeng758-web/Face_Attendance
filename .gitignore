@@ -1,0 +1,15 @@
+# 虚拟环境
+.venv/
+venv/
+
+# IDE 配置
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 数据和模型(隐私 + 运行生成)
+datasets/
+trainer/
+attendance_logs/
